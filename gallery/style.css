@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	margin:0px;
+	padding:0px;
+	background-color: #16161D;
+}
+a:visited{
+	color:white;
+}
+a{
+	color:white;
+}
+#wrap {	
+	min-height:100%;
+	position:relative;
+}
+#header{
+	color:#fff;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:30px;
+	background:#000;
+	padding-top:5px;
+	margin-left:10px;
+}
+#main{
+	color:#fff;
+	text-align:center;
+	height:100px;
+	margin:auto;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	font-size:36px;
+}
+#btn{
+	background-color: #16161D;
+	margin-top:20px !important;
+	font-size:20px;
+	border: 2px solid white;
+	width:130px;
+	margin:auto;
+	transition: background-color .50s ease-in-out;
+	-moz-transition: background-color .50s ease-in-out;
+	-webkit-transition: background-color .50s ease-in-out;
+}
+#btn:hover{
+	background-color: black;
+	color:#FFF;
+
+}
+#btn a{
+	display:block;
+	text-decoration:none;
+	color:#CCC;
+}
+#footer{
+	color:#fff;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;
+	background:#000;
+	padding-top:5px;
+}
+.left{
+	padding-left:10px;
+}
+.right{
+	float:right;
+	padding-right:10px;
+}
